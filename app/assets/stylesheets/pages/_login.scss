@@ -1,0 +1,38 @@
+.login-container h2 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 50px;
+    font-weight: bold
+}
+
+.form-inputs {
+    width: 250px;
+    border-radius: 8px,
+}
+
+.login-container {
+    justify-content: center;
+    display: grid;
+    margin-top: 50px;
+}
+
+
+.form-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.form-inputs-devise {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+
+    a{
+        color:black;
+    }
+}
+

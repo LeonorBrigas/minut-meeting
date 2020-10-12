@@ -1,0 +1,22 @@
+.box-heading.no-flex {
+    display: block;
+    background-color: #85C0E9;
+    width: 100%;
+    color: #FFF;
+}
+
+.box-heading {
+    display: flex;
+    padding: 50px 20px;
+    overflow: hidden;
+    line-height: 31px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.title-after-banner {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
