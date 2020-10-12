@@ -1,16 +1,32 @@
 .footer {
   justify-content: center;
   text-align: center;
-  background-color: #85C0E9;
+  background-color: #09305E;
   height: 300px;
   width: 100%;
   padding: 50px 20px;
   color: #FFF;
 }
 
-.footer h2 {
+.footer h1 {
+  font-family: "Circular",sans-serif;
   font-weight: bold;
+  text-align: left;
+  font-size: 60px;
+  color: #FFF;
+  margin-top: 10px;
 }
+
+.footer h2 {
+  font-family: "Circular",sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  font-size: 60px;
+  color: #FFF;
+  margin-top: 10px;
+  display: block;
+}
+
 
 .footer-links {
   // display: flex;

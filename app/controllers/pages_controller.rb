@@ -2,6 +2,6 @@ class PagesController < ApplicationController
   def about
   end
 
-  def signup
+  def get_in_touch
   end
 end
