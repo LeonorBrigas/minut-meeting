@@ -4,10 +4,10 @@
      <p>
       <span id="banner-typed-text"></span>
     </p>
-<<<<<<< HEAD
 <!--     <p>Simplifying the Hectic Schedule into Actionables</p> -->
-=======
->>>>>>> bd8af40f056989d9030ab9d27b5dbcef59855ff7
+    <div class="button-sign-up">
+      <%= link_to "Get in touch", get_in_touch_path, class:"btn btn-ghost"%>
+    </div>
   </div>
 </div>
 
@@ -27,7 +27,7 @@
               </div>
               <div class="half">
                 <div class="box">
-                <h3>Minut Meeting</h3>
+                <h3>Meeting Minute</h3>
                   <p>A simple extension for your browser that is added to each Hangouts call.</p>
                   <p>Meeting Minute will sit in on the call and help you with notetaking, so that you can quickly follow up on the meeting and make sure you’re on top of all the issues covered.</p>
                   <p>Meeting Minute will extract participants, help you summarize the topics covered & propose actionables of the meeting.</p>
@@ -38,15 +38,9 @@
             <!-- 2nd -->
           <div class="carousel-item text-center p-4">
              <header class="wrapper">
-<<<<<<< HEAD
                 <h1 class="full-width mb-3">meetingminute.io</h1>
-                <div>
-                  <%= image_tag "bannermeeting.png", width:1000, class: "bannermeeting"%>
-=======
-                <h1 class="full-width mb-3">meetingminute.com</h1>
-                <div>
-                  <%= image_tag "bannermeeting.png", class: "bannermeeting", width:1000%>
->>>>>>> bd8af40f056989d9030ab9d27b5dbcef59855ff7
+                <div class="bannermeeting">
+                  <%= image_tag "bannermeeting", width:1000%>
                 </div>
             </header>
             </div>
@@ -56,7 +50,7 @@
               <div class="half">
                 <h1 class="full-width">From meeting to minute</h1>
                 <h1 class="full-width">(AI powered Meeting assistant)</h1>
-                <%= image_tag "videocall_transparent.png", class: "carousel-image"%>
+                <%= image_tag "videocall_transparent", class: "carousel-image"%>
               </div>
               <div class="half">
                 <div class="box">
